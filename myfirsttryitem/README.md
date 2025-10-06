@@ -7,3 +7,7 @@ Add your project description here.
 MyFirsttryitem
 
 sinowit
+
+Describe your integration and generate your artifacts with AI
+
+
