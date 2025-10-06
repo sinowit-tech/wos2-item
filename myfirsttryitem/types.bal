@@ -1,4 +1,4 @@
-// Define custom types for the service if needed in future
+// Define custom types for the service
 
 public type ServiceResponse record {
     string message;
@@ -8,4 +8,20 @@ public type ServiceResponse record {
 public type HealthStatus record {
     string status;
     string message;
+};
+
+public type ItemRequest record {
+    string message;
+};
+
+public type ServiceInfo record {
+    string serviceName;
+    string version;
+    int totalItems;
+    string uptime;
+};
+
+public type ErrorResponse record {
+    string errorMessage;
+    int errorCode;
 };
